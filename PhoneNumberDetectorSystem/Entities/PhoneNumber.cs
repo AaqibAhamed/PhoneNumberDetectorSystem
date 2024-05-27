@@ -12,13 +12,10 @@ namespace PhoneNumberDetectorSystem.Entities
         public string Language { get; set; }
         public string Format { get; set; }
 
-        //public string HindiPhoneNumber { get; set; }
-
         public PhoneNumber(string input, string language, string phoneNumberinDigit)
         {
             PhoneNumberInDigit = phoneNumberinDigit;
             Language = language;
-
             // EnglishPhoneNumber = englishPhoneNumber;
             //  HindiPhoneNumber = hindiPhoneNumber;
 
